@@ -15,20 +15,12 @@ $ npm i --save ansy
 
 const ansy = require("ansy");
 
-console.log(ansy());
+console.log(ansy.fg.rgb(255, 0, 0) + "Red foreground." + ansy.close.fg);
+// => "Red foreground"
+
+console.log(ansy.bg.hex("#000000") + "Black background." + ansy.close.bg);
+// => "Black background"
 ```
-
-## Documentation
-
-### `ansy(a, b)`
-Cross platform ANSI colors made easy.
-
-#### Params
-- **Number** `a`: Param descrpition.
-- **Number** `b`: Param descrpition.
-
-#### Return
-- **Number** Return description.
 
 ## How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
