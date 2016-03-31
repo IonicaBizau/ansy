@@ -2,17 +2,18 @@
 
 > Cross platform ANSI colors made easy.
 
-## Installation
-
+## :cloud: Installation
+    
 ```sh
 $ npm i --save ansy
 ```
 
-## Example
+            
+## :clipboard: Example
+
+        
 
 ```js
-"use strict";
-
 const ansy = require("ansy");
 
 console.log(ansy.fg.rgb(255, 0, 0) + "Red foreground." + ansy.close.fg);
@@ -21,17 +22,18 @@ console.log(ansy.fg.rgb(255, 0, 0) + "Red foreground." + ansy.close.fg);
 console.log(ansy.bg.hex("#000000") + "Black background." + ansy.close.bg);
 // => "Black background"
 ```
-
-## How to contribute
+    
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
-
+ - [`couleurs`](https://github.com/IonicaBizau/node-couleurs)—Add some color and styles to your Node.JS strings.
+## :scroll: License
+    
 [MIT][license] © [Ionică Bizău][website]
-
+    
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
