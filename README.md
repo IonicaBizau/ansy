@@ -30,6 +30,7 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
  - [`couleurs`](https://github.com/IonicaBizau/node-couleurs)—Add some color and styles to your Node.JS strings.
+
 ## :scroll: License
     
 [MIT][license] © [Ionică Bizău][website]
