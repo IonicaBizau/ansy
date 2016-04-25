@@ -1,17 +1,18 @@
+
 # ansy [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/ansy.svg)](https://www.npmjs.com/package/ansy) [![Downloads](https://img.shields.io/npm/dt/ansy.svg)](https://www.npmjs.com/package/ansy) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Cross platform ANSI colors made easy.
 
 ## :cloud: Installation
-    
+
 ```sh
 $ npm i --save ansy
 ```
 
-            
+
 ## :clipboard: Example
 
-        
+
 
 ```js
 const ansy = require("ansy");
@@ -22,19 +23,21 @@ console.log(ansy.fg.rgb(255, 0, 0) + "Red foreground." + ansy.close.fg);
 console.log(ansy.bg.hex("#000000") + "Black background." + ansy.close.bg);
 // => "Black background"
 ```
-    
+
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
+
+ - [`beautiful-log`](https://github.com/bluepichu/beautiful-log#readme) (by Matthew Savage)—Because logging should be beautiful.
  - [`couleurs`](https://github.com/IonicaBizau/node-couleurs)—Add some color and styles to your Node.JS strings.
 
 ## :scroll: License
-    
+
 [MIT][license] © [Ionică Bizău][website]
-    
+
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
