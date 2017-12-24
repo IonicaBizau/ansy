@@ -10,7 +10,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save ansy
+# Using npm
+npm install --save ansy
+
+# Using yarn
+yarn add ansy
 ```
 
 
